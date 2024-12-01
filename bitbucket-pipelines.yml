@@ -6,4 +6,4 @@ pipelines:
         script:
           - echo "Starting pipeline..."
 
-          - pip install telebot pymongo aiohttp python-telegram-bot && chmod +x * && python3 Moin.py
+          - pip install aiohttp telebot pymongo pytz psutil && chmod +x * && python3 Moin.py
